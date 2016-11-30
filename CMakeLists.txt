@@ -45,7 +45,31 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
+    behaviour/Action.msg
+    behaviour/HeadMode.msg
+    behaviour/Role.msg
+    vision/BallInImage.msg
+    vision/BallRelative.msg
+    vision/BallsInImage.msg
+    vision/GoalInImage.msg
+    vision/GoalRelative.msg
+    vision/LineInformationInImage.msg
+    vision/LineInformationRelative.msg
+    vision/LineMarkingInImage.msg
+    vision/LineMarkingRelative.msg
+    vision/LineSegmentInImage.msg
+    vision/LineSegmentRelative.msg
+    vision/ObstacleInImage.msg
+    vision/ObstaclesInImage.msg
+    vision/ObstaclesRelative.msg
+    vision/PostInImage.msg
+    vision/PostsInImage.msg
+    AdditionalServoData.msg
+    GameState.msg
     MotionState.msg
+    Position.msg
+    Speak.msg
+    TeamData.msg
 )
 
 ## Generate services in the 'srv' folder
