@@ -16,9 +16,10 @@
 #      |
 #      +------------------+--------------> x
 #                         0
-
-#todo specify orientation for mitecome
+#
+# The 0 value of the orientation is pointing to the opponent side (right side in the image).
+# The value increases counter clockwise
 
 Pose2D pose
-# A certanty rating between 0 and 1, where 1 is the surest.
+# A certainty rating between 0 and 1, where 1 is the surest.
 float32 confidence

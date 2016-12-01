@@ -30,4 +30,4 @@ uint8 PENALTY_ANIMANTION=8
 uint8 RECORD=9
 # The robot is walking
 uint8 WALKING=10
-uint8[] state
+uint8 state

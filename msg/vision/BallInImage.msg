@@ -7,4 +7,5 @@ geometry_msgs/Point center
 # Diamter of the ball
 float32 diameter
 # A certainty rating between 0 and 1, where 1 is the surest.
+# 0 means no ball was found
 float32 confidence

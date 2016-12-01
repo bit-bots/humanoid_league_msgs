@@ -7,4 +7,4 @@ uint8 ROLE_STRIKER=2
 uint8 ROLE_SUPPORTER=3
 uint8 ROLE_DEFENDER=4
 uint8 ROLE_GOALIE=5
-uint8[] role
+uint8 role
