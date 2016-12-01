@@ -61,6 +61,7 @@ add_message_files(
     vision/LineSegmentRelative.msg
     vision/ObstacleInImage.msg
     vision/ObstaclesInImage.msg
+    vision/ObstacleRelative.msg
     vision/ObstaclesRelative.msg
     vision/PostInImage.msg
     vision/PostsInImage.msg

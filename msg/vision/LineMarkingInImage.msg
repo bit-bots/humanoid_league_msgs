@@ -7,7 +7,8 @@ uint8 UNDEFINED=0
 uint8 CENTER_POINT=1
 uint8 CENTER_CIRCLE=2
 uint8 PENALTY_POINT=3
-uint8 CORNER=4
+uint8 FIELD_CORNER=4
+uint8 PENALTY_CORNER=5
 uint8 type
 
 geometry_msgs/Point topleft

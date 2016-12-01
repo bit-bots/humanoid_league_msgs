@@ -1,6 +1,6 @@
 # This message provides all information from the game controller
 # for additional information see documentation of the game controller
-#todo link
+# https://github.com/bhuman/GameController
 
 # Own team color
 uint8 TEAM_COLOR_CYAN=0

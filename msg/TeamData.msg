@@ -1,4 +1,5 @@
 # This message contains all information provided by the mitecom standard for team communication
+# Everything is in meters (ROS standard) not to be confused with millimeters (mitecom standard)
 # More information here: https://github.com/fumanoids/mitecom
 
 

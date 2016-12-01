@@ -1,16 +1,16 @@
-# An obstacle in the image
+# An obstacle in the image, which can be a robot, a human or something else
 
+# The header is included to get the time stamp for later use in tf
 std_msgs/Header header
 
 # Main color of the obstacle, to differentiate between robots and other things like human legs
-uint8 NONE=0
+uint8 UNDEFINED=0
 uint8 MAGENTA=1
 uint8 CYAN=2
 uint8 BLACK=3
-uint8 WHITE=4
-uint8 GREY=5
 uint8 color
 
+# The coresponding section in the image
 geometry msgs/Point top_left
 uint8 height
 uint8 width
