@@ -7,6 +7,8 @@ project(humanoid_league_msgs)
 find_package(catkin REQUIRED COMPONENTS
   message_generation
   std_msgs
+  geometry_msgs
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -45,26 +47,26 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
-    behaviour/Action.msg
-    behaviour/HeadMode.msg
-    behaviour/Role.msg
-    vision/BallInImage.msg
-    vision/BallRelative.msg
-    vision/BallsInImage.msg
-    vision/GoalInImage.msg
-    vision/GoalRelative.msg
-    vision/LineInformationInImage.msg
-    vision/LineInformationRelative.msg
-    vision/LineMarkingInImage.msg
-    vision/LineMarkingRelative.msg
-    vision/LineSegmentInImage.msg
-    vision/LineSegmentRelative.msg
-    vision/ObstacleInImage.msg
-    vision/ObstaclesInImage.msg
-    vision/ObstacleRelative.msg
-    vision/ObstaclesRelative.msg
-    vision/PostInImage.msg
-    vision/PostsInImage.msg
+    Action.msg
+    HeadMode.msg
+    Role.msg
+    BallInImage.msg
+    BallRelative.msg
+    BallsInImage.msg
+    GoalInImage.msg
+    GoalRelative.msg
+    LineInformationInImage.msg
+    LineInformationRelative.msg
+    LineMarkingInImage.msg
+    LineMarkingRelative.msg
+    LineSegmentInImage.msg
+    LineSegmentRelative.msg
+    ObstacleInImage.msg
+    ObstaclesInImage.msg
+    ObstacleRelative.msg
+    ObstaclesRelative.msg
+    PostInImage.msg
+    PostsInImage.msg
     AdditionalServoData.msg
     GameState.msg
     MotionState.msg
@@ -88,10 +90,12 @@ add_message_files(
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
+ generate_messages(
+   DEPENDENCIES
+   std_msgs
+   geometry_msgs
+   sensor_msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -122,7 +126,11 @@ add_message_files(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-   CATKIN_DEPENDS message_runtime
+   CATKIN_DEPENDS
+   message_runtime
+   std_msgs
+   geometry_msgs
+   sensor_msgs
 )
 
 ###########

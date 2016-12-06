@@ -21,6 +21,6 @@
 # The value increases counter clockwise
 # everything in meters
 
-Pose2D pose
+geometry_msgs/Pose2D pose
 # A certainty rating between 0 and 1, where 1 is the surest.
 float32 confidence

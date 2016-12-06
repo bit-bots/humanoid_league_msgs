@@ -36,11 +36,11 @@ uint8[] max_kicking_distance
 
 
 #todo check this and the user specified data of mitecom
-unit8 UNSPECIFIED=0
+uint8 UNSPECIFIED=0
 uint8 LEFT=1
 uint8 RIGHT=2
 uint8 CENTER=3
-unit8[] kickoff_offence_side
+uint8[] kickoff_offence_side
 
 #todo ball certainty
 #todo robot positions

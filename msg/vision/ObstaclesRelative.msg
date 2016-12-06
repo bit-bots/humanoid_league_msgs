@@ -1,1 +1,0 @@
-ObstaclesRelative[] obstacles

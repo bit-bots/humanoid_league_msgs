@@ -11,7 +11,7 @@ uint8 BLACK=3
 uint8 color
 
 # The coresponding section in the image
-geometry msgs/Point top_left
+geometry_msgs/Point top_left
 uint8 height
 uint8 width
 
