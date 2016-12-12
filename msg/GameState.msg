@@ -27,7 +27,7 @@ uint8 rivalScore
 int8 goalDifference
 bool allowedToMove
 bool hasKickOff
-bool panelized
+bool penalized
 bool firstHalf
 int32 kickoff_sec
 int32 kickoff_nsec
