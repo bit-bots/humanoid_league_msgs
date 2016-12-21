@@ -2,6 +2,8 @@
 # Everything is in meters (ROS standard) not to be confused with millimeters (mitecom standard)
 # More information here: https://github.com/fumanoids/mitecom
 
+std_msgs/Header header
+
 
 uint8 ROLE_IDLING=0
 uint8 ROLE_OTHER=1
@@ -31,7 +33,7 @@ uint8[] ball_relative_x
 uint8[] ball_relative_y
 
 uint8[] avg_walking_speed
-uint8[] time_to_position_at_ball
+uint8[] time_to_position_at_ball #todo ros time
 uint8[] max_kicking_distance
 
 

@@ -1,5 +1,8 @@
 # Information about a special line feature on the field
 
+# The header is included to get the time stamp for later use in tf
+std_msgs/Header header
+
 # The type defines which kind of special feature is contained in this message
 uint8 UNDEFINED=0
 uint8 CENTER_POINT=1

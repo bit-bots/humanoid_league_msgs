@@ -30,4 +30,7 @@ uint8 PENALTY_ANIMANTION=8
 uint8 RECORD=9
 # The robot is walking
 uint8 WALKING=10
+# A state where the motors are turned off, but the motion is still waiting for commandos and turns the motors on,
+# if a move commando comes
+uint8 MOTOR_OFF=11
 uint8 state

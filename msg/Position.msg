@@ -21,6 +21,9 @@
 # The value increases counter clockwise
 # everything in meters
 
+# The header is included to get the time stamp for later use in tf
+std_msgs/Header header
+
 geometry_msgs/Pose2D pose
 # A certainty rating between 0 and 1, where 1 is the surest.
 float32 confidence

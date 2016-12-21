@@ -1,5 +1,8 @@
 # An obstacle relative to the robot
 
+# The header is included to get the time stamp for later use in tf
+std_msgs/Header header
+
 # Type of the obstacle
 uint8 UNKNOWN=0
 uint8 CYAN_ROBOT=1

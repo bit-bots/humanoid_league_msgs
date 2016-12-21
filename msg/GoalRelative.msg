@@ -1,5 +1,8 @@
 # Relative position to a goal
 
+# The header is included to get the time stamp for later use in tf
+std_msgs/Header header
+
 # Position of the goal post feet (in meter)
 geometry_msgs/Vector3[] positions
 
