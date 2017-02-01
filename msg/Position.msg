@@ -19,7 +19,7 @@
 #
 # The 0 value of the orientation is pointing to the opponent side (right side in the image).
 # The value increases counter clockwise
-# everything in meters
+# Everything in meters (because it is the ROS standard)
 
 # The header is included to get the time stamp for later use in tf
 std_msgs/Header header
