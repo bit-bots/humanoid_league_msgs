@@ -71,6 +71,7 @@ add_message_files(
     GameState.msg
     MotionState.msg
     Position.msg
+    Position2D.msg
     Speak.msg
     TeamData.msg
 )
