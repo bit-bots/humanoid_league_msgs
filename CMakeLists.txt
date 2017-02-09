@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   sensor_msgs
+  trajectory_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -48,6 +49,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
     FILES
     Action.msg
+    Animation.msg
     HeadMode.msg
     Role.msg
     BallInImage.msg
@@ -96,6 +98,7 @@ add_message_files(
    std_msgs
    geometry_msgs
    sensor_msgs
+   trajectory_msgs
  )
 
 ################################################
