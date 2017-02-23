@@ -16,5 +16,7 @@ uint8 NON_FIELD_FEATURES=4
 uint8 LOOK_DOWN=5
 # Simply look directly forward
 uint8 LOOK_FORWARD=7
+#Don't move the head
+uint8 DONT_MOVE=8
 
 uint8 headMode
