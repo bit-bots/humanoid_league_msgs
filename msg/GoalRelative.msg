@@ -4,7 +4,7 @@
 std_msgs/Header header
 
 # Position of the goal post feet (in meter)
-geometry_msgs/Vector3[] positions
+geometry_msgs/Point[] positions
 
 # Vector pointing to the (propable) center of the goal (in meters).
 # Should only be used if only one goal post is visible. If both are visible this should be none.

@@ -11,7 +11,7 @@ uint8 UNKNOWN_ROBOT=3
 uint8 type
 
 # Position (in meters)
-geometry_msgs/Vector3 position
+geometry_msgs/Point position
 
 # Educated guess of the width (in meters)
 float32 width
