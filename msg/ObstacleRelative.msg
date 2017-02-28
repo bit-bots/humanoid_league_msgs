@@ -1,7 +1,7 @@
 # An obstacle relative to the robot
 
 # The header is included to get the time stamp for later use in tf
-std_msgs/Header header
+std_msgs/Header header #todo this header is normally not needed, as it is provided in ObstaclesRelative.msg
 
 # Type of the obstacle
 uint8 UNKNOWN=0
