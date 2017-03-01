@@ -9,8 +9,8 @@ bool first
 #last message of this animation
 bool last
 
-# is this animation comming from the motion
-bool motion
+# is this animation comming from the hardware control manager
+bool hcm
 
 # only first point
 trajectory_msgs/JointTrajectory position

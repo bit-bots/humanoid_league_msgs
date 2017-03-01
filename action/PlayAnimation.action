@@ -3,9 +3,9 @@
 # name of the animation
 string animation
 
-# if the animation commes from the motion, it should be played directly, interrupting other animations and walking
+# if the animation commes from the hardware control manager, it should be played directly, interrupting other animations and walking
 # it's propably falling or standing up
-bool motion
+bool hcm
 
 ---
 #result definition
