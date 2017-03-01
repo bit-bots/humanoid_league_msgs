@@ -36,7 +36,7 @@ add_message_files(
     PostsInImage.msg
     AdditionalServoData.msg
     GameState.msg
-    RobotState.msg
+    RobotControlState.msg
     Position.msg
     Position2D.msg
     Speak.msg
