@@ -1,4 +1,4 @@
-# This message provides the current state of the motion, which is handling falling, standing up and the decision
+# This message provides the current state of the hardware control manager (HCM), which is handling falling, standing up and the decision
 # between playing animations and walking
 
 # Robot can be controlled from a higher level
