@@ -1,5 +1,6 @@
 # goal definition
 
+#todo maybe specify standard animation for standing up and so on (per enum)
 # name of the animation
 string animation
 

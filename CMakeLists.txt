@@ -40,6 +40,8 @@ add_message_files(
     Speak.msg
     TeamData.msg
     Strategy.msg
+    VisualCompassRotation.msg
+    BarInImage.msg
 )
 
 ## Generate actions in the 'action' folder
