@@ -1,4 +1,4 @@
-# A line segment relativ to the robot
+# A line segment relative to the robot
 
 std_msgs/Header header
 

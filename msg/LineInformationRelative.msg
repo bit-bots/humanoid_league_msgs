@@ -4,4 +4,5 @@
 std_msgs/Header header
 
 LineSegmentRelative[] segments
-LineMarkingRelative[] markings
+LineIntersectionRelative[] markings
+LineCircleRelative[] circles

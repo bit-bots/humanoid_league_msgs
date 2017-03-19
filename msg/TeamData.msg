@@ -30,8 +30,7 @@ uint8 STATE_PENALIZED=2
 uint8[] state
 
 # absolute position values
-geometry_msgs/Pose2D[] own_position
-float32[] own_position_confidence
+geometry_msgs/Pose2D[] robot_positions
 
 # relative ball position, theta of Pose2D is not used
 Position2D[] ball_relative

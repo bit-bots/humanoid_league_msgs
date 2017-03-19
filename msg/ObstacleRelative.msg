@@ -1,14 +1,23 @@
 # An obstacle relative to the robot
 
 # The header is included to get the time stamp for later use in tf
-std_msgs/Header header #todo this header is normally not needed, as it is provided in ObstaclesRelative.msg
+std_msgs/Header header
 
-# Type of the obstacle
-uint8 UNKNOWN=0
-uint8 CYAN_ROBOT=1
-uint8 MAGENTA_ROBOT=2
-uint8 UNKNOWN_ROBOT=3
-uint8 type
+# Main color of the obstacle, to differentiate between robots and other things like human legs
+# something we cant classify
+uint8 UNDEFINED = 0
+# robot without known color
+uint8 ROBOT_UNDEFINED = 1
+uint8 ROBOT_MAGENTA = 2
+uint8 ROBOT_CYAN = 3
+# a human legs, e.g. from the referee
+uint8 HUMAN = 4
+# black poles which are normally used for technical challenges
+uint8 POLE = 5
+uint8 color
+
+# the number of the robot, if it is a robot and if it can be read. Put in -1 if not known
+uint8 playerNumber
 
 # Position (in meters)
 geometry_msgs/Point position

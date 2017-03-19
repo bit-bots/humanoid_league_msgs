@@ -4,7 +4,7 @@
 # Search for Ball and track it if found
 uint8 BALL_MODE=0
 # Search for goal posts, mainly to locate the robot on the field
-uint8 POLE_MODE=1
+uint8 POST_MODE=1
 # Track ball and goal by constantly switching between both
 uint8 BALL_GOAL_TRACKING=2
 # Look generally for all features on the field (ball, goals, corners, center point)
@@ -18,5 +18,6 @@ uint8 LOOK_DOWN=5
 uint8 LOOK_FORWARD=7
 #Don't move the head
 uint8 DONT_MOVE=8
-
+# Look to the ceiling, for example for visual compas
+uint8 LOOK_UP=9
 uint8 headMode

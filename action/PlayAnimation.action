@@ -5,7 +5,7 @@ string animation
 
 # if the animation commes from the hardware control manager, it should be played directly, interrupting other animations and walking
 # it's propably falling or standing up
-bool hcm
+bool hcm #todo try to make two actions out of it for replacing this boolean
 
 ---
 #result definition

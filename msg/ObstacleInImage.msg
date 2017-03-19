@@ -4,13 +4,22 @@
 std_msgs/Header header
 
 # Main color of the obstacle, to differentiate between robots and other things like human legs
-uint8 UNDEFINED=0
-uint8 MAGENTA=1
-uint8 CYAN=2
-uint8 BLACK=3
+# something we cant classify
+uint8 UNDEFINED = 0
+# robot without known color
+uint8 ROBOT_UNDEFINED = 1
+uint8 ROBOT_MAGENTA = 2
+uint8 ROBOT_CYAN = 3
+# a human legs, e.g. from the referee
+uint8 HUMAN = 4
+# black poles which are normally used for technical challenges
+uint8 POLE = 5
 uint8 color
 
-# The coresponding section in the image
+# the number of the robot, if it is a robot and if it can be read. Put in -1 if not known
+uint8 playerNumber
+
+# The corresponding section in the image
 geometry_msgs/Point top_left
 uint8 height
 uint8 width

@@ -15,9 +15,9 @@ uint8 GETTING_UP=3
 # no walking or further animations possible
 # Falling detection is deactivated
 uint8 ANIMATION_RUNNING=4
-# The motion is booting
+# The hardware control manager is booting
 uint8 STARTUP=5
-# The motion is shutting down
+# The hardware control manager is shutting down
 uint8 SHUTDOWN=6
 # The robot is in penalty position
 # It can not be controlled
@@ -30,7 +30,10 @@ uint8 PENALTY_ANIMANTION=8
 uint8 RECORD=9
 # The robot is walking
 uint8 WALKING=10
-# A state where the motors are turned off, but the motion is still waiting for commandos and turns the motors on,
+# A state where the motors are turned off, but the hardware control manager is still waiting for commandos and turns the motors on,
 # if a move commando comes
 uint8 MOTOR_OFF=11
+# Last status send by the hardware control manager after shutting down
+uint8 HCM_OFF=12
+
 uint8 state
