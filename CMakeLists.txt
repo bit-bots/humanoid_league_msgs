@@ -43,6 +43,7 @@ add_message_files(
     VisualCompassRotation.msg
     BarInImage.msg
     Position2D.msg
+    Animation.msg
 )
 
 ## Generate actions in the 'action' folder
