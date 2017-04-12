@@ -1,6 +1,6 @@
 # This message provides additional data from the servos, which is not included in JointState.msg
 # Should mainly used for monitoring and debug purposes
 
-# setting the value to -1 means there is no data from this motor
+# Setting the value to -1 means there is no data from this motor
 float32[] voltage
 sensor_msgs/Temperature[] temperature

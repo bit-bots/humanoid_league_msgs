@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
+    Animation.msg
     HeadMode.msg
     BallInImage.msg
     BallRelative.msg
@@ -42,6 +43,7 @@ add_message_files(
     Strategy.msg
     VisualCompassRotation.msg
     BarInImage.msg
+    Position2D.msg
 )
 
 ## Generate actions in the 'action' folder

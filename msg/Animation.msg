@@ -1,16 +1,16 @@
-Header header #todo will maybe replaced by splitting the animation server in two action servers
+Header header
 
-#this is a request to make motion controllable
+# This is a request to make HCM controllable, e.g. stop walking
 bool request
 
-#first message of this animation
+# First message of this animation
 bool first
 
-#last message of this animation
+# Last message of this animation
 bool last
 
-# is this animation comming from the hardware control manager
+# Is this animation comming from the hardware control manager
 bool hcm
 
-# only first point
+# Joint goals
 trajectory_msgs/JointTrajectory position

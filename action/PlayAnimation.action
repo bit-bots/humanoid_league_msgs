@@ -1,12 +1,11 @@
 # goal definition
 
-#todo maybe specify standard animation for standing up and so on (per enum)
 # name of the animation
 string animation
 
 # if the animation commes from the hardware control manager, it should be played directly, interrupting other animations and walking
 # it's propably falling or standing up
-bool hcm #todo try to make two actions out of it for replacing this boolean
+bool hcm
 
 ---
 #result definition

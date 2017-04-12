@@ -29,25 +29,25 @@ uint8 STATE_ACTIVE=1
 uint8 STATE_PENALIZED=2
 uint8[] state
 
-# absolute position values
+# Absolute position values
 geometry_msgs/Pose2D[] robot_positions
 
-# relative ball position, theta of Pose2D is not used
+# Relative ball position, theta of Pose2D is not used
 Position2D[] ball_relative
 
-# relative position of the opponent goal, theta of Pose2D is not used
-# this is helpful if the robot has no global position, but sees the goal
+# Relative position of the opponent goal, theta of Pose2D is not used
+# This is helpful if the robot has no global position, but sees the goal
 Position2D[] oppgoal_relative
 
-# positions of opponent robots, if they are recognized
-# the letter of the robot is arbitrary as the sending robot does not know the id of a seen robot
+# Positions of opponent robots, if they are recognized
+# The letter of the robot is arbitrary as the sending robot does not know the id of a seen robot
 Position2D[] opponent_robot_a
 Position2D[] opponent_robot_b
 Position2D[] opponent_robot_c
 Position2D[] opponent_robot_d
 
-# positions of team robots, if they are recognized
-# the letter of the robot is arbitrary as the sending robot does not know the id of a seen robot
+# Positions of team robots, if they are recognized
+# The letter of the robot is arbitrary as the sending robot does not know the id of a seen robot
 Position2D[] team_robot_a
 Position2D[] team_robot_b
 Position2D[] team_robot_c

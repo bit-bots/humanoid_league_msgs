@@ -22,16 +22,16 @@ bool firstHalf
 uint8 ownScore
 uint8 rivalScore
 
-# seconds remaining for the game half
+# Seconds remaining for the game half
 int16 secondsRemaining
-# seconds remaining for things like kickoff
+# Seconds remaining for things like kickoff
 uint16 secondary_seconds_remaining
 
 bool hasKickOff
 bool penalized
 uint16 secondsTillUnpenalized
-# allowed to move is different from penalized. You can for example be not allowed to move due to the current state of
-# the game
+# Allowed to move is different from penalized.
+# You can for example be not allowed to move due to the current state of the game
 bool allowedToMove
 
 bool dropInTeam
