@@ -1,8 +1,5 @@
 # An obstacle relative to the robot
 
-# The header is included to get the time stamp for later use in tf
-std_msgs/Header header
-
 # Main color of the obstacle, to differentiate between robots and other things like human legs
 # Something we cant classify
 uint8 UNDEFINED = 0

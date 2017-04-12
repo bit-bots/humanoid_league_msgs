@@ -1,7 +1,5 @@
 # A line intersection feature in the image
 
-std_msgs/Header header
-
 # The type defines which kind of intersection is present
 uint8 UNDEFINED=0
 uint8 L=1

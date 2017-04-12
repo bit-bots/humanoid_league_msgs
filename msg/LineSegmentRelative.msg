@@ -1,7 +1,5 @@
 # A line segment relative to the robot
 
-std_msgs/Header header
-
 # Start and end position of the line
 # x in front of the robot
 # y to the left

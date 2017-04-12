@@ -1,8 +1,5 @@
 # A (possible) goal post in the image. It is defined by two end points and a width.
 
-# The header is included to get the time stamp for later use in tf
-std_msgs/Header header
-
 # Two points defining the significant axis of the post
 geometry_msgs/Point foot_point
 geometry_msgs/Point top_point

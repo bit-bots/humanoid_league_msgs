@@ -1,8 +1,5 @@
 # Information about a special line feature on the field
 
-# The header is included to get the time stamp for later use in tf
-std_msgs/Header header
-
 # The type defines which kind of intersection is present
 uint8 UNDEFINED=0
 uint8 L=1
