@@ -19,8 +19,9 @@ uint8 playerNumber
 # Position (in meters)
 geometry_msgs/Point position
 
-# Educated guess of the width (in meters)
+# Educated guess of the width and height (in meters)
 float32 width
+float32 height
 
 # A certainty rating between 0 and 1, where 1 is the surest.
 float32 confidence
