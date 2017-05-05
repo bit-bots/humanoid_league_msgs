@@ -22,7 +22,7 @@ uint8 secondaryState
 
 # For newest version of game controller
 # Tells which team has the free kick or penalty kick
-int secondrayStateTeam
+uint8 secondrayStateTeam
 
 bool firstHalf
 uint8 ownScore
