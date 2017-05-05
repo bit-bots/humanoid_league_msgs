@@ -16,7 +16,13 @@ uint8 STATE_NORMAL = 0
 uint8 STATE_PENALTYSHOOT = 1
 uint8 STATE_OVERTIME = 2
 uint8 STATE_TIMEOUT = 3
+uint8 STATE_FREEKICK = 4
+uitn STATE_PENALTYKICK = 5
 uint8 secondaryState
+
+# For newest version of game controller
+# Tells which team has the free kick or penalty kick
+int secondrayStateTeam
 
 bool firstHalf
 uint8 ownScore
