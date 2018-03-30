@@ -5,6 +5,7 @@ uint8 UNDEFINED=0
 uint8 L=1
 uint8 T=2
 uint8 X=3
+
 uint8 type
 
 # The line segments related to this crossing
