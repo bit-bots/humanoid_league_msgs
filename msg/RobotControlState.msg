@@ -35,5 +35,7 @@ uint8 WALKING=10
 uint8 MOTOR_OFF=11
 # Last status send by the hardware control manager after shutting down
 uint8 HCM_OFF=12
+# Robot has hardware problems and is not controlable
+uint8 HARDWARE_PROBLEM=13
 
 uint8 state
