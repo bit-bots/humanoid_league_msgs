@@ -12,12 +12,15 @@ uint8 GAMESTATE_PLAYING=3
 uint8 GAMESTATE_FINISHED=4
 uint8 gameState
 
+# Secondary state, penaltyshoot is penalty shootout at the end of the game,
+# penaltykick is a kick during the game
 uint8 STATE_NORMAL = 0
 uint8 STATE_PENALTYSHOOT = 1
 uint8 STATE_OVERTIME = 2
 uint8 STATE_TIMEOUT = 3
-uint8 STATE_FREEKICK = 4
-uint8 STATE_PENALTYKICK = 5
+uint8 STATE_DIRECT_FREEKICK = 4
+uint8 STATE_INDIRECT_FREEKICK = 5
+uint8 STATE_PENALTYKICK = 6
 uint8 secondaryState
 
 # For newest version of game controller
@@ -43,7 +46,9 @@ bool allowedToMove
 bool dropInTeam
 uint16 dropInTime
 
+# The number of the current penalty shot during penalty shootout
 uint8 penaltyShot
+# a binary pattern indicating the successful penalty shots (1 for succesful, 0 fpr unsuccessful)
 uint16 singleShots
 
 string coach_message
