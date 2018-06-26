@@ -43,6 +43,11 @@ uint16 secondsTillUnpenalized
 # You can for example be not allowed to move due to the current state of the game
 bool allowedToMove
 
+# Team colors
+uint8 BLUE = 0
+uint8 RED = 1
+uint8 teamColor
+
 bool dropInTeam
 uint16 dropInTime
 
