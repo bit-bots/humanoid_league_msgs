@@ -37,5 +37,7 @@ uint8 MOTOR_OFF=11
 uint8 HCM_OFF=12
 # Robot has hardware problems and is not controlable
 uint8 HARDWARE_PROBLEM=13
+# Robot is currently picked up by a human. Should normally not move during this time.
+uint8 PICKED_UP=14
 
 uint8 state
