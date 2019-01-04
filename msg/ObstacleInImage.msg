@@ -18,8 +18,8 @@ uint8 playerNumber
 
 # The corresponding section in the image
 geometry_msgs/Point top_left
-uint8 height
-uint8 width
+uint16 height
+uint16 width
 
 # A certainty rating between 0 and 1, where 1 is the surest.
 float32 confidence
