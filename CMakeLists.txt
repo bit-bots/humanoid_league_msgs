@@ -24,6 +24,7 @@ add_message_files(
     GoalPartsInImage.msg
     GoalRelative.msg
     HeadMode.msg
+    ImageWithRegionOfInterest.msg
     LineCircleInImage.msg
     LineCircleRelative.msg
     LineIntersectionInImage.msg
@@ -37,6 +38,8 @@ add_message_files(
     ObstaclesInImage.msg
     ObstacleRelative.msg
     ObstaclesRelative.msg
+    PixelRelative.msg
+    PixelsRelative.msg
     Position2D.msg
     PostInImage.msg
     RobotControlState.msg
