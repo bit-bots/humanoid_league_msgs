@@ -13,13 +13,17 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
+    AdditionalServoData.msg
     Animation.msg
-    HeadMode.msg
     BallInImage.msg
     BallRelative.msg
     BallsInImage.msg
+    BarInImage.msg
+    GameState.msg
     GoalInImage.msg
+    GoalPartsInImage.msg
     GoalRelative.msg
+    HeadMode.msg
     LineCircleInImage.msg
     LineCircleRelative.msg
     LineIntersectionInImage.msg
@@ -33,17 +37,13 @@ add_message_files(
     ObstaclesInImage.msg
     ObstacleRelative.msg
     ObstaclesRelative.msg
+    Position2D.msg
     PostInImage.msg
-    GoalPartsInImage.msg
-    AdditionalServoData.msg
-    GameState.msg
     RobotControlState.msg
     Speak.msg
-    TeamData.msg
     Strategy.msg
+    TeamData.msg
     VisualCompassRotation.msg
-    BarInImage.msg
-    Position2D.msg
 )
 
 ## Generate actions in the 'action' folder
