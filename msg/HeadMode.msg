@@ -18,6 +18,6 @@ uint8 LOOK_DOWN=5
 uint8 LOOK_FORWARD=7
 #Don't move the head
 uint8 DONT_MOVE=8
-# Look to the ceiling, for example for visual compas
+# Look to the ceiling, for example for visual compass
 uint8 LOOK_UP=9
 uint8 headMode
