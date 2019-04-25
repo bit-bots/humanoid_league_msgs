@@ -1,5 +1,5 @@
-# This message is used for communicating between the body behaviour and the head behaviour
-# The body tells the head by this message what it shall do
+# This message is used for communicating between the body behavior and the head behavior.
+# The body tells the head by this message what it shall do.
 
 # Search for Ball and track it if found
 uint8 BALL_MODE=0
