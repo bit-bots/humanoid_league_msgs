@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   trajectory_msgs
   actionlib
+  actionlib_msgs
 )
 
 ## Generate messages in the 'msg' folder
@@ -72,6 +73,8 @@ catkin_package(
    std_msgs
    geometry_msgs
    sensor_msgs
+   actionlib_msgs
+   trajectory_msgs
 )
 
 include_directories(
