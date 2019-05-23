@@ -20,4 +20,6 @@ uint8 LOOK_FORWARD=7
 uint8 DONT_MOVE=8
 # Look to the ceiling, for example for visual compass
 uint8 LOOK_UP=9
+# special (V-shaped) search pattern for goal with ball
+uint8 SEARCH_GOAL_WITH_BALL_MODE=10
 uint8 headMode
