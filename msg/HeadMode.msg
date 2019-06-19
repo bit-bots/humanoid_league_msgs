@@ -20,4 +20,6 @@ uint8 LOOK_FORWARD=7
 uint8 DONT_MOVE=8
 # Look to the ceiling, for example for visual compass
 uint8 LOOK_UP=9
+# Ball Mode adapted for Penalty Kick
+uint8 BALL_MODE_PENALTY = 10
 uint8 headMode
