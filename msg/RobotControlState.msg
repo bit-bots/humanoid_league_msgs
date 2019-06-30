@@ -39,5 +39,7 @@ uint8 HCM_OFF=12
 uint8 HARDWARE_PROBLEM=13
 # Robot is currently picked up by a human. Should normally not move during this time.
 uint8 PICKED_UP=14
+# Robot is currently kicking the ball
+uint 8 KICKING=15 
 
 uint8 state
