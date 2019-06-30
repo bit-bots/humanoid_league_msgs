@@ -25,6 +25,6 @@ uint8 RECORD_VISUAL_COMPASS=10
 # Ball Mode adapted for Penalty Kick
 uint8 BALL_MODE_PENALTY = 11
 # Look for visual compass features
-uint8 LOOK_FOR_VISUAL_COMPASS_FEATURES = 12
+uint8 VISUAL_COMPASS_FEATURES = 12
 
 uint8 headMode
