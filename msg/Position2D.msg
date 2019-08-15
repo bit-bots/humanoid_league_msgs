@@ -24,6 +24,7 @@
 # The header is included to get the time stamp for later use in tf
 std_msgs/Header header
 
-geometry_msgs/Pose2D pose
+# we only need a 2D pose but since the geometry_msgs/Pose2D is deprecated we will use the Pose message
+geometry_msgs/Pose pose
 # A certainty rating between 0 and 1, where 1 is the surest.
 float32 confidence
