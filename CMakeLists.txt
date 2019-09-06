@@ -26,6 +26,7 @@ add_message_files(
     GoalRelative.msg
     HeadMode.msg
     FieldBoundaryInImage.msg
+    FieldBoundaryRelative.msg
     ImageWithRegionOfInterest.msg
     LineCircleInImage.msg
     LineCircleRelative.msg
