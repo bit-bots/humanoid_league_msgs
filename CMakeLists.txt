@@ -20,9 +20,11 @@ add_message_files(
     BallRelative.msg
     BallsInImage.msg
     BarInImage.msg
+    BarRelative.msg
     GameState.msg
     GoalInImage.msg
     GoalPartsInImage.msg
+    GoalPartsRelative.msg
     GoalRelative.msg
     HeadMode.msg
     FieldBoundaryInImage.msg
@@ -44,6 +46,7 @@ add_message_files(
     PixelsRelative.msg
     Position2D.msg
     PostInImage.msg
+    PostRelative.msg
     RobotControlState.msg
     Speak.msg
     Strategy.msg
