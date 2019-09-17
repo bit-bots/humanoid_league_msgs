@@ -2,4 +2,4 @@
 std_msgs/Header header
 
 PostRelative[] posts
-BarsRelative[] bars
+BarRelative[] bars
