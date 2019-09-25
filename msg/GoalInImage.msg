@@ -4,9 +4,9 @@
 std_msgs/Header header
 
 # Left post (or the only seen one)
-humanoid_league_msgs/PostInImage left_post
+humanoid_league_msgs/GoalPostInImage left_post
 # Right post, or null if only one post of the goal is seen
-humanoid_league_msgs/PostInImage right_post
+humanoid_league_msgs/GoalPostInImage right_post
 
 # Vector pointing to the (probable) center of the goal.
 # Should only be used if only one goal post is visible. If both are visible this should be none.

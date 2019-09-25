@@ -1,5 +1,5 @@
 # The header is included to get the time stamp for later use in tf
 std_msgs/Header header
 
-PostRelative[] posts
-BarRelative[] bars
+GoalPostRelative[] posts
+GoalBarRelative[] bars
