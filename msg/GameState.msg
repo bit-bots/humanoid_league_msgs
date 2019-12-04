@@ -21,11 +21,19 @@ uint8 STATE_TIMEOUT = 3
 uint8 STATE_DIRECT_FREEKICK = 4
 uint8 STATE_INDIRECT_FREEKICK = 5
 uint8 STATE_PENALTYKICK = 6
+uint8 STATE_CORNER_KICK = 7
+uint8 STATE_GOAL_KICK = 8
+uint8 STATE_THROW_IN = 9
 uint8 secondaryState
 
 # For newest version of game controller
 # Tells which team has the free kick or penalty kick
 uint8 secondaryStateTeam
+# The secondary state contains a sub mode in which phase of execution the secondary state is
+uint8 MODE_PREPARATION = 0
+uint8 MODE_PLACING = 1
+uint8 MODE_END = 2
+uint8 secondaryStateMode
 
 bool firstHalf
 uint8 ownScore
