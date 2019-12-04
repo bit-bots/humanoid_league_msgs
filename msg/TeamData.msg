@@ -32,25 +32,25 @@ uint8[] state
 # Absolute position values
 geometry_msgs/Pose[] robot_positions
 
-# Relative ball position, theta of Pose2D is not used
-Position2D[] ball_relative
+# Relative ball position, rotation is not used
+geometry_msgs/PoseWithCovariance[] ball_relative
 
-# Relative position of the opponent goal, theta of Pose2D is not used
+# Relative position of the opponent goal, rotation is not used
 # This is helpful if the robot has no global position, but sees the goal
-Position2D[] oppgoal_relative
+geometry_msgs/PoseWithCovariance[] oppgoal_relative
 
 # Positions of opponent robots, if they are recognized
 # The letter of the robot is arbitrary as the sending robot does not know the id of a seen robot
-Position2D[] opponent_robot_a
-Position2D[] opponent_robot_b
-Position2D[] opponent_robot_c
-Position2D[] opponent_robot_d
+geometry_msgs/PoseWithCovariance[] opponent_robot_a
+geometry_msgs/PoseWithCovariance[] opponent_robot_b
+geometry_msgs/PoseWithCovariance[] opponent_robot_c
+geometry_msgs/PoseWithCovariance[] opponent_robot_d
 
 # Positions of team robots, if they are recognized
 # The letter of the robot is arbitrary as the sending robot does not know the id of a seen robot
-Position2D[] team_robot_a
-Position2D[] team_robot_b
-Position2D[] team_robot_c
+geometry_msgs/PoseWithCovariance[] team_robot_a
+geometry_msgs/PoseWithCovariance[] team_robot_b
+geometry_msgs/PoseWithCovariance[] team_robot_c
 
 float32[] avg_walking_speed
 float32[] time_to_position_at_ball

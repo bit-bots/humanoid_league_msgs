@@ -42,7 +42,6 @@ add_message_files(
     ObstaclesRelative.msg
     PixelRelative.msg
     PixelsRelative.msg
-    Position2D.msg
     PostInImage.msg
     RobotControlState.msg
     Speak.msg
