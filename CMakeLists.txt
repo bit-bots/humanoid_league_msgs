@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   trajectory_msgs
   actionlib
   actionlib_msgs
+  bitbots_docs
 )
 
 ## Generate messages in the 'msg' folder
@@ -80,3 +81,5 @@ catkin_package(
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
+
+enable_bitbots_docs()
