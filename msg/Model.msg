@@ -2,4 +2,4 @@
 
 BallRelative ball
 ObstaclesRelative obstacles
-geometry_msgs/PoseWithCovarianceStamped position
+geometry_msgs/PoseWithCovariance position
