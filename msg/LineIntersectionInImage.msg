@@ -8,6 +8,9 @@ uint8 X=3
 
 uint8 type
 
+# The position of the line intersection in the image
+geometry_msgs/Point point
+
 # The line segments related to this crossing
 humanoid_league_msgs/LineSegmentInImage[] segments
 
