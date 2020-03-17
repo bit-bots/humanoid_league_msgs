@@ -9,7 +9,7 @@ bool first
 # Last message of this animation
 bool last
 
-# Is this animation comming from the hardware control manager
+# Is this animation coming from the hardware control manager
 bool hcm
 
 # Joint goals

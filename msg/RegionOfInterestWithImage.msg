@@ -12,4 +12,3 @@ sensor_msgs/RegionOfInterest regionOfInterest
 # This can be especially useful when visualizing the ROI in context
 uint16 original_width
 uint16 original_height
-

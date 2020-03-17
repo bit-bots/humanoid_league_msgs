@@ -53,7 +53,7 @@ uint16 dropInTime
 
 # The number of the current penalty shot during penalty shootout
 uint8 penaltyShot
-# a binary pattern indicating the successful penalty shots (1 for succesful, 0 fpr unsuccessful)
+# a binary pattern indicating the successful penalty shots (1 for successful, 0 for unsuccessful)
 uint16 singleShots
 
 string coach_message

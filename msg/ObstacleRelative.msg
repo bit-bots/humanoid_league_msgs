@@ -22,4 +22,3 @@ geometry_msgs/PoseWithCovariance pose
 # Educated guess of the width and height (in meters)
 float32 width
 float32 height
-
