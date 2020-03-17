@@ -5,6 +5,7 @@ Generalized messages:
 ------------------
 
 Generalized messages are used for:
+<topic> (<MessageType>)
 
 - ball_relative (geometry_msgs/PoseWithCovariance)
 - balls_relative (PoseWithCovarianceArray)
