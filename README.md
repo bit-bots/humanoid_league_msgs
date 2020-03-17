@@ -1,19 +1,19 @@
 Humanoid League Messages
 ========================
 
-Standard messages:
+Generalized messages:
 ------------------
 
-Standard messages are used for:
+Generalized messages are used for:
 
-- ball_relative (PoseWithCovariance)
+- ball_relative (geometry_msgs/PoseWithCovariance)
 - balls_relative (PoseWithCovarianceArray)
-- goalpost_relative (PoseWithCovariance)
+- goalpost_relative (geometry_msgs/PoseWithCovariance)
 - goalposts_relative (PoseWithCovarianceArray)
-- field_boundary_in_image (PolygonStamped)
-- field_boundary_relative (PolygonStamped)
-- pixels_relative (PointCloud2)
-- visual_compass_rotation (PoseWithCovarianceStamped with position always (0, 0, 0))
+- field_boundary_in_image (geometry_msgs/PolygonStamped)
+- field_boundary_relative (geometry_msgs/PolygonStamped)
+- pixels_relative (sensor_msgs/PointCloud2)
+- visual_compass_rotation (geometry_msgs/PoseWithCovarianceStamped with position always (0, 0, 0))
 
 
 
