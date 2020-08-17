@@ -9,6 +9,7 @@ Generalized messages are used for:
 
 - ball_relative (geometry_msgs/PoseWithCovariance)
 - balls_relative (PoseWithCovarianceArray)
+- goal_relative (PoseWithCovarianceArray with max. two elements)
 - goalpost_relative (geometry_msgs/PoseWithCovariance)
 - goalposts_relative (PoseWithCovarianceArray)
 - field_boundary_in_image (geometry_msgs/PolygonStamped)
