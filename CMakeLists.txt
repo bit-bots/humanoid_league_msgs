@@ -33,7 +33,9 @@ add_message_files(
     ObstacleInImageArray.msg
     ObstacleRelative.msg
     ObstacleRelativeArray.msg
-    PoseWithCovarianceArray.msg
+    PoseWithCertainty.msg
+    PoseWithCertaintyArray.msg
+    PoseWithCertaintyStamped.msg
     RegionOfInterestWithImage.msg
     RobotControlState.msg
     Strategy.msg

@@ -8,8 +8,8 @@ uint8 X=3
 
 uint8 type
 
-# The pose of the line intersection in the image and its covariance
-geometry_msgs/PoseWithCovariance pose
+# The pose of the line intersection in the image and its certainty
+humanoid_league_msgs/PoseWithCertainty pose
 
 # The line segments related to this crossing
 humanoid_league_msgs/LineSegmentRelative[] segments

@@ -5,17 +5,18 @@ Generalized messages:
 ------------------
 
 Generalized messages are used for:
-<topic> (<MessageType>)
 
-- ball_relative (geometry_msgs/PoseWithCovariance)
-- balls_relative (PoseWithCovarianceArray)
-- goal_relative (PoseWithCovarianceArray with max. two elements)
-- goalpost_relative (geometry_msgs/PoseWithCovariance)
-- goalposts_relative (PoseWithCovarianceArray)
+`<topic> (<MessageType>)`
+
+- ball_relative (PoseWithCertainty)
+- balls_relative (PoseWithCertaintyArray)
+- goal_relative (PoseWithCertaintyArray with max. two elements)
+- goalpost_relative (PoseWithCertainty)
+- goalposts_relative (PoseWithCertaintyArray)
 - field_boundary_in_image (geometry_msgs/PolygonStamped)
 - field_boundary_relative (geometry_msgs/PolygonStamped)
 - pixels_relative (sensor_msgs/PointCloud2)
-- visual_compass_rotation (geometry_msgs/PoseWithCovarianceStamped with position always (0, 0, 0))
+- visual_compass_rotation (PoseWithCertaintyStamped with position always (0, 0, 0))
 
 
 

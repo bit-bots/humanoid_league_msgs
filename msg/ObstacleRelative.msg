@@ -17,7 +17,7 @@ uint8 type
 uint8 playerNumber
 
 # Position (in meters)
-geometry_msgs/PoseWithCovariance pose
+humanoid_league_msgs/PoseWithCertainty pose
 
 # Educated guess of the width and height (in meters)
 float32 width
