@@ -8,8 +8,5 @@ uint8 X=3
 
 uint8 type
 
-# The pose of the line intersection in the image and its certainty
+# The pose of the line intersection and its certainty
 humanoid_league_msgs/PoseWithCertainty pose
-
-# The line segments related to this crossing
-humanoid_league_msgs/LineSegmentRelative[] segments
