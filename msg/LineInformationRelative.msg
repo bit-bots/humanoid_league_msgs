@@ -5,4 +5,3 @@ std_msgs/Header header
 
 LineIntersectionRelative[] intersections
 LineSegmentRelative[] segments
-LineCircleRelative[] circles

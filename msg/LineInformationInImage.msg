@@ -5,4 +5,3 @@ std_msgs/Header header
 
 LineIntersectionInImage[] intersections
 LineSegmentInImage[] segments
-LineCircleInImage[] circles

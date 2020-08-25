@@ -2,7 +2,7 @@
 # between playing animations and walking
 
 # Robot can be controlled from a higher level
-uint8 CONTROLABLE=0
+uint8 CONTROLLABLE=0
 # Robot is currently falling
 # it can not be controlled and should go to a position that minimizes the damage during a fall
 uint8 FALLING=1
@@ -23,9 +23,9 @@ uint8 SHUTDOWN=6
 # It can not be controlled
 uint8 PENALTY=7
 # The robot is getting in or out of penalty position
-uint8 PENALTY_ANIMANTION=8
+uint8 PENALTY_ANIMATION=8
 # The robot is used for recording animations
-# Reserved all controling to a recording process
+# Reserved all controlling to a recording process
 # No falling detection is processed and no stand ups will be done
 uint8 RECORD=9
 # The robot is walking
@@ -35,7 +35,7 @@ uint8 WALKING=10
 uint8 MOTOR_OFF=11
 # Last status send by the hardware control manager after shutting down
 uint8 HCM_OFF=12
-# Robot has hardware problems and is not controlable
+# Robot has hardware problems and is not controllable
 uint8 HARDWARE_PROBLEM=13
 # Robot is currently picked up by a human. Should normally not move during this time.
 uint8 PICKED_UP=14

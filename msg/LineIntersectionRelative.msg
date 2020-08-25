@@ -8,8 +8,5 @@ uint8 X=3
 
 uint8 type
 
-# The line segments related to this crossing
-humanoid_league_msgs/LineSegmentRelative[] segments
-
-# A certainty rating between 0 and 1, where 1 is the surest.
-float32 confidence
+# The pose of the line intersection and its certainty
+humanoid_league_msgs/PoseWithCertainty pose
