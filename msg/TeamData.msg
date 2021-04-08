@@ -12,12 +12,13 @@ uint8 STATE_UNPENALIZED=1
 uint8 STATE_PENALIZED=2
 uint8 state
 
-# Absolute position value
+# Absolute position value (in the map frame)
 PoseWithCertainty robot_position
 
-# Relative ball position, rotation is not used
+# ball position, rotation is not used (in the map frame)
 PoseWithCertainty ball_relative
 
+# positions of obstacles (in the map frame)
 ObstacleRelativeArray obstacles
 
 float32 time_to_position_at_ball
