@@ -18,10 +18,6 @@ PoseWithCertainty robot_position
 # Relative ball position, rotation is not used
 PoseWithCertainty ball_relative
 
-# Relative position of the opponent goal, rotation is not used
-# This is helpful if the robot has no global position, but sees the goal
-PoseWithCertainty oppgoal_relative
-
 ObstacleRelativeArray obstacles
 
 float32 time_to_position_at_ball
