@@ -1,7 +1,7 @@
 # This message contains information provided by the RoboCup Protocol for team communication.
 # Everything is in SI units (ROS standard).
 # Set belief values to 0 if object was not recognized.
-# More information here: TODO Link to our modified RoboCup Protocol
+# More information here: https://github.com/bit-bots/RobocupProtocol
 
 std_msgs/Header header
 
