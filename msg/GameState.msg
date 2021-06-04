@@ -42,7 +42,7 @@ uint8 rivalScore
 # Seconds remaining for the game half
 int16 secondsRemaining
 # Seconds remaining for things like kickoff
-uint16 secondary_seconds_remaining
+int16 secondary_seconds_remaining
 
 bool hasKickOff
 bool penalized
