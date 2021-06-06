@@ -2,12 +2,13 @@
 # shared with other team robots
 
 # Which role the robot has currently
-uint8 ROLE_IDLING=0
-uint8 ROLE_OTHER=1
-uint8 ROLE_STRIKER=2
-uint8 ROLE_SUPPORTER=3
-uint8 ROLE_DEFENDER=4
-uint8 ROLE_GOALIE=5
+uint8 ROLE_UNDEFINED=0
+uint8 ROLE_IDLING=1
+uint8 ROLE_OTHER=2
+uint8 ROLE_STRIKER=3
+uint8 ROLE_SUPPORTER=4
+uint8 ROLE_DEFENDER=5
+uint8 ROLE_GOALIE=6
 uint8 role
 
 # The current action of the robot
@@ -19,7 +20,8 @@ uint8 ACTION_WAITING=4
 uint8 action
 
 # Offensive strategy
-uint8 SIDE_LEFT = 0
-uint8 SIDE_MIDDLE = 1
-uint8 SIDE_RIGHT = 2
+uint8 SIDE_UNDEFINED=0
+uint8 SIDE_LEFT=1
+uint8 SIDE_MIDDLE=2
+uint8 SIDE_RIGHT=3
 uint8 offensive_side
