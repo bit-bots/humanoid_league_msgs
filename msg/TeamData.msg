@@ -13,10 +13,10 @@ uint8 STATE_PENALIZED=2
 uint8 state
 
 # Absolute position value (in the map frame)
-PoseWithCertainty robot_position
+geometry_msgs/PoseWithCovariance robot_position
 
 # ball position, rotation is not used (in the map frame)
-PoseWithCertainty ball_relative
+geometry_msgs/PoseWithCovariance ball_relative
 
 # positions of obstacles (in the map frame)
 ObstacleRelativeArray obstacles
