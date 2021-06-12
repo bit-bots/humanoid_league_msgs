@@ -16,7 +16,7 @@ uint8 state
 geometry_msgs/PoseWithCovariance robot_position
 
 # ball position, rotation is not used (in the map frame)
-geometry_msgs/PoseWithCovariance ball_relative
+geometry_msgs/PoseWithCovariance ball_absolute
 
 # positions of obstacles (in the map frame)
 ObstacleRelativeArray obstacles
