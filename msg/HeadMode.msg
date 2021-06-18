@@ -26,5 +26,8 @@ uint8 RECORD_VISUAL_COMPASS=10
 uint8 BALL_MODE_PENALTY = 11
 # Look for visual compass features
 uint8 VISUAL_COMPASS_FEATURES = 12
+# Do a pattern which only looks in front of the robot
+uint8 LOOK_FRONT = 13
+
 
 uint8 headMode
