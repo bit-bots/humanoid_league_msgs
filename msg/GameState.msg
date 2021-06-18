@@ -62,3 +62,6 @@ uint8 penaltyShot
 uint16 singleShots
 
 string coach_message
+
+bool[] teamMatesWithPenalty
+bool[] teamMatesWithRedCard
