@@ -6,7 +6,7 @@ std_msgs/Header header
 sensor_msgs/Image image
 
 # The region of interest describing the size and placement of the region in the original image.
-sensor_msgs/RegionOfInterest regionOfInterest
+sensor_msgs/RegionOfInterest region_of_interest
 
 # Width and height of the original image the ROI is taken from.
 # This can be especially useful when visualizing the ROI in context

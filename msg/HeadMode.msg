@@ -30,4 +30,4 @@ uint8 VISUAL_COMPASS_FEATURES = 12
 uint8 LOOK_FRONT = 13
 
 
-uint8 headMode
+uint8 head_mode

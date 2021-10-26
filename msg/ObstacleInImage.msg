@@ -14,7 +14,7 @@ uint8 POLE = 5
 uint8 type
 
 # The number of the robot, if it is a robot and if it can be read. Put in 0 if not known
-uint8 playerNumber
+uint8 player_number
 
 # The corresponding section in the image
 geometry_msgs/Point top_left
