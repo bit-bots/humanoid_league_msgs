@@ -66,6 +66,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotControlState.msg"
   "msg/Strategy.msg"
   "msg/TeamData.msg"
+  "msg/PointStamped.msg"
   "action/PlayAnimation.action"
   DEPENDENCIES
   std_msgs
