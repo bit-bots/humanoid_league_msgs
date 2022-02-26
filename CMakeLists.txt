@@ -22,7 +22,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 find_package(actionlib_msgs REQUIRED)
-# find_package(bitbots_docs REQUIRED)
+find_package(bitbots_docs REQUIRED)
 
 # Check if still needed
 # find_package(actionlib REQUIRED)
@@ -76,7 +76,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 ament_export_dependencies(rosidl_default_runtime)
-
 ament_package()
 
-# enable_bitbots_docs()
+include(${CMAKE_BINARY_DIR}/../bitbots_docs/enable_bitbots_docs.cmake)
+enable_bitbots_docs()
