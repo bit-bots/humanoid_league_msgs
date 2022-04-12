@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 # This is a request to make HCM controllable, e.g. stop walking
 bool request
