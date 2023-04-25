@@ -7,7 +7,6 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
-find_package(actionlib_msgs REQUIRED)
 find_package(bitbots_docs REQUIRED)
 
 if(BUILD_TESTING)
@@ -37,7 +36,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   geometry_msgs
   sensor_msgs
   trajectory_msgs
-  actionlib_msgs
 )
 
 enable_bitbots_docs()
